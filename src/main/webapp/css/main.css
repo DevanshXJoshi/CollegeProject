@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+body {
+    background: #0A1F44;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.header .header_content {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #1C3A70;
+    color: #ffffff;
+    padding: 24px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.rs_shadow {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.rs_form_box {
+    background: #122A58;
+    border: 1px solid #1E4B91;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+.rs_form_box{
+	margin:auto;
+}
+
+.rs_form_box label,
+.form_section_title,
+.color_light {
+    color: #A1C4FD;
+}
+
+.register_form .btn-default {
+    background: #1E4B91;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 34px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.register_form .btn-default:hover {
+    background: #4178D0;
+}
+
+input{
+	border-radius:10px;
+}
+
+.main_nav {
+    background: linear-gradient(0deg, #1E4B91, #122A58);
+    border-bottom: 5px solid #1C3A70;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top:10px;
+}
+
+.main_nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.main_nav ul li a.active,
+.main_nav ul li a:hover {
+    background: #4178D0 !important;
+    border-radius: 5px;
+}
+
+.box {
+    background: #1C3A70;
+    border: 1px solid #4178D0;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.home_page_slider{
+	background:white;
+}
+.box .box_title {
+    background: linear-gradient(0deg, #4178D0, #1E4B91);
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.ticket_info {
+    background: #1C3A70;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+.ticket_info h2 {
+    background: #4178D0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.single_ticket .ticket_inner {
+    background: #0A1F44;
+    padding: 20px;
+    color: #A1C4FD;
+    border-radius: 10px;
+}
+
+.single_ticket .ticket_header h2 {
+    font-size: 28px;
+    font-family: "Vladimir Script";
+    font-weight: 400;
+    color: #A1C4FD;
+}
+
+.single_ticket .ticet_footer {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    color: #ffffff;
+}
